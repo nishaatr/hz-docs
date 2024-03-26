@@ -1,14 +1,12 @@
-= 5.3.0 Release Notes
+= 5.4.0 Release Notes
 
-WARNING: The minimal supported Java version is 11 starting with this release of Hazelcast Platform.
+CAUTION: Starting with this release of Hazelcast Platform, the minimum supported Java version is 17.
 
 == New Features
 
-* **xref:integrate:kafka-connect-connectors.adoc[Connector for Kafka Connect source (BETA)]**: Import data from an external system directly into a Hazelcast data pipeline
-without the need of a Kafka cluster.
-* **xref:integrate:mongodb-connector.adoc[Connector for MongoDB (BETA)]**: Read and write from/to MongoDB via this connector and execute SQL queries on Mongo collections directly from Hazelcast.
-* **https://github.com/hazelcast/hazelcast/blob/master/docs/design/sql/16-partition-aware-client.md[Partition-Aware SQL Client]**: Send the SQL commands only to the members having the relevant data, which reduces the network hops and improves the query performances.
-* **xref:sql:create-data-connection.adoc[Data Connection Support via SQL]**: Data connections and mappings using them can be managed using SQL commands.
+* User Code Namespaces: Enable deployment and redeployment of your custom classes. See the User Code Namespaces documentation.
+* Thread-Per-Core (TPC): TPC is now generally available. You can enable this feature on the clients and cluster members for improved performance. See the Thread-Per-Core (TPC) documentation.
+* CPMap: Added CPMap as a minimal key-value CP data structure. See CPMap documentation.
 
 == Breaking Changes
 

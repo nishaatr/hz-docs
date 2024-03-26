@@ -1,29 +1,29 @@
 name: hazelcast
 title: Platform
 # Version in the URL
-version: '5.3'
+version: '5.4'
 # Version in the version selector (we display only the latest major.minor version)
-display_version: '5.3'
+display_version: '5.4'
 # Displays a banner to inform users that this is a prerelease version 
 asciidoc:
   attributes:
     # The full major.minor.patch version, which is used as a variable in the docs for things like download links
-    full-version: '5.3.6'
+    full-version: '5.4.0'
     # The snapshot version for installing with brew
-    version-brew: '5.3.6'
+    version-brew: '5.4.0'
     # Allows us to use UI macros. See https://docs.asciidoctor.org/asciidoc/latest/macros/ui-macros/
     experimental: true
     page-toclevels: 1@
     # All page-latest attributes are used as a variable in the docs for things like download links and search results
     page-latest-cli: '5.2021.09'
     # Must be lowercase because this is how the version appears in the docs
-    page-latest-supported-mc: '5.3'
-    page-latest-supported-java-client: '5.3.6'
+    page-latest-supported-mc: '5.4'
+    page-latest-supported-java-client: '5.4.0'
     page-latest-supported-go-client: '1.4.1'
     page-latest-supported-cplusplus-client: '5.3.0'
     page-latest-supported-csharp-client: '5.3.1'
     page-latest-supported-python-client: '5.3.0'
     page-latest-supported-nodejs-client: '5.1.0'
-    page-latest-supported-clc: '5.3.5'
+    page-latest-supported-clc: '5.3.7'
 nav:
   - modules/ROOT/nav.adoc
